@@ -1,0 +1,20 @@
+li {
+  opacity: 0.35;
+}
+.prof-pic{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+}
+
+nav{
+  opacity: .4;
+  color: #fff;
+}
+
+.navbar-inverse
+{
+  background-color: #ffffff;
+  border-color: #f3fffe;
+}
