@@ -9,7 +9,7 @@ body {
 }
 
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
-    color: ##b2b2b2;
+    color: #b2b2b2;
 }
 
 .navbar-inverse{
