@@ -92,6 +92,15 @@ a:hover{
 
 .featurette-heading {
     font-size: 50px;
+    text-align: center;
+}
+
+.lead{
+    text-align: center;
+}
+
+.text-muted{
+    text-align: center;
 }
 
 footer {
