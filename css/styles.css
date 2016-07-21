@@ -18,3 +18,7 @@ nav{
   background-color: #ffffff;
   border-color: #f3fffe;
 }
+
+div.headline {
+   content:url(img/Seaside.jpeg);
+}​
