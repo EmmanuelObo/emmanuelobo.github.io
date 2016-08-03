@@ -57,16 +57,16 @@
                         <a class="menu-item" data-scroll href="#about">About</a>
                     </li>
                     <li>
-                        <a class="menu-item" data-scroll href="#stack">My Stack</a>
+                        <a class="menu-item" data-scroll href="#stack">Stack</a>
                     </li>
                     <li>
-                        <a class="menu-item" data-scroll href="#projects">Projects</a>
+                        <a class="menu-item" href="../emmanuelobo.github.io/pages/projects.html">Projects</a>
                     </li>
                     <li>
                         <a class="menu-item" data-scroll href="#connect">Connect</a>
                     </li>
                     <li>
-                        <a href="Emmanuel-Resume.docx">Resume</a>
+                        <a class="btn" data-toggle="modal" data-target="#ResumeModal">Resume</a>
                     </li>
                 </ul>
             </div>
@@ -88,10 +88,10 @@
     <!-- Page Content -->
     <div class="container">
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="about">
 
         <!-- First Featurette -->
-        <div class="featurette" id="about">
+        <div class="featurette" >
             <!--<img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">-->
             <h2 class="featurette-heading">About
                 <span class="text-muted">Me</span>
@@ -110,26 +110,15 @@
                 <span class="text-muted">Stack:</span>
             </h2>
             <div class="row">
-            <img class="img-responsive lang-logo" src="../img/languages/Expressjs.png">
-            <img class="img-responsive lang-logo" src="../img/languages/node.png">
-            <img class="img-responsive lang-logo" src="../img/languages/CSS.png">
-            <img class="img-responsive lang-logo" src="../img/languages/Cplusplus.png">
-            <img class="img-responsive lang-logo" src="../img/languages/Java_logo.png">
-            <img class="img-responsive lang-logo" src="../img/languages/javascript-shield.png">
-            <img class="img-responsive lang-logo" src="../img/languages/HTML5_logo.png">
-            <img class="img-responsive lang-logo" src="../img/languages/angular.png">
+            <img class="img-responsive lang-logo" src="../emmanuelobo.github.io/img/languages/Expressjs.png">
+            <img class="img-responsive lang-logo" src="../emmanuelobo.github.io/img/languages/node.png">
+            <img class="img-responsive lang-logo" src="../emmanuelobo.github.io/img/languages/CSS.png">
+            <img class="img-responsive lang-logo" src="../emmanuelobo.github.io/img/languages/Cplusplus.png">
+            <img class="img-responsive lang-logo" src="../emmanuelobo.github.io/img/languages/Java_logo.png">
+            <img class="img-responsive lang-logo" src="../emmanuelobo.github.io/img/languages/javascript-shield.png">
+            <img class="img-responsive lang-logo" src="../emmanuelobo.github.io/img/languages/HTML5_logo.png">
+            <img class="img-responsive lang-logo" src="../emmanuelobo.github.io/img/languages/angular.png">
             </div>
-
-        <hr class="featurette-divider">
-
-        <!-- Third Featurette -->
-        <div class="featurette" id="projects">
-            <!--<img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">-->
-            <h2 class="featurette-heading">My
-                <span class="text-muted">Projects</span>
-            </h2>
-            <p class="lead">Stormer | Devotional | Chat Client | JotIt | Quizzer </p>
-        </div>
 
         <hr class="featurette-divider">
 
@@ -138,9 +127,28 @@
             <h2 class="featurette-heading">Connect w/
                 <span class="text-muted">Me:</span>
             </h2>
-            <p class="lead socials">LinkedIn | GitHub | Twitter</p>
+            <p class="lead socials"><a href='https://linkedin.com/in/emmanuelobo'>LinkedIn</a> | <a href='https://github.com/EmmanuelObo'>GitHub</a> | <a href='https://twitter.com/MrMannyO'>Twitter</a></p>
         </div>
 
+
+        <!-- Resume Modal -->
+        <div class="modal fade" id="ResumeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Emmanuel's Resume</h4>
+              </div>
+              <div class="modal-body">
+                <object class="resume-obj" data="EmmanuelObogbaimhe_Resume.pdf"></object>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" style="center">Close</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
 
         <!-- Footer -->
         <footer>
